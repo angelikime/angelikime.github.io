@@ -1,6 +1,8 @@
 <aside class="sidebar">
   <div class="sidebar-top">
-    <a href="{{ '/' | relative_url }}" class="logo"><span class="logomark"></span> angeliki<br>kalandatze</a>
+   <a href="{{ '/' | relative_url }}" class="logo">
+  <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="angeliki kalandatze" style="height:40px; width:auto;">
+</a>
     <nav><ul>
       <li><a href="{{ '/work/' | relative_url }}" class="{% if page.url contains '/work' %}active{% endif %}"><span class="dot"></span>Work</a></li>
       <li><a href="{{ '/#services' | relative_url }}"><span class="dot"></span>Services</a></li>
@@ -20,8 +22,10 @@
 </aside>
 
 <div class="topbar">
-  <a href="{{ '/' | relative_url }}" class="logo"><span class="logomark"></span> angeliki kalandatze</a>
-  <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <a href="{{ '/' | relative_url }}" class="logo">
+  <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="angeliki kalandatze" style="height:40px; width:auto;">
+</a>
+<button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
 </div>
 <div class="mobile-drawer" id="mobileDrawer">
   <nav><ul>
