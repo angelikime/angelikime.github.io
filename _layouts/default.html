@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<div class="shell">
+  {% include nav.html %}
+  <main>
+    <div class="wrap">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span>&copy; {{ 'now' | date: "%Y" }} angeliki kalandatze — Vienna, Austria</span>
+        <span class="mono">Built with Jekyll &amp; GitHub Pages</span>
+      </footer>
+    </div>
+  </main>
+</div>
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

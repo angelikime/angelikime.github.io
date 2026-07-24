@@ -1,0 +1,37 @@
+title: angeliki kalandatze
+tagline: "Graphic designer — Vienna / remote"
+description: "Branding, packaging and print design — ten years working with food & beauty brands and Europe's largest tech conferences."
+email: hello@angeliki.me
+baseurl: ""
+url: ""
+
+# --- Portfolio collection ---
+# Every file in _projects/ becomes a project page at /work/<filename>/
+collections:
+  projects:
+    output: true
+    permalink: /work/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Social / footer links — edit these once, they show up everywhere
+social:
+  linkedin: "#"
+  instagram: "#"
+  upwork: "#"
+
+exclude:
+  - README.md

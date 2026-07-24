@@ -1,0 +1,41 @@
+<aside class="sidebar">
+  <div class="sidebar-top">
+    <a href="{{ '/' | relative_url }}" class="logo"><span class="crossmark"></span> angeliki<br>kalandatze</a>
+    <nav><ul>
+      <li><a href="{{ '/work/' | relative_url }}" class="{% if page.url contains '/work' %}active{% endif %}"><span class="dot"></span>Work</a></li>
+      <li><a href="{{ '/#services' | relative_url }}"><span class="dot"></span>Services</a></li>
+      <li><a href="{{ '/about/' | relative_url }}" class="{% if page.url contains '/about' %}active{% endif %}"><span class="dot"></span>About</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}" class="{% if page.url contains '/contact' %}active{% endif %}"><span class="dot"></span>Contact</a></li>
+    </ul></nav>
+  </div>
+  <div class="sidebar-bottom">
+    <p class="avail mono">Vienna, Austria<br>Available for remote work</p>
+    <div class="social mono">
+      <a href="{{ site.social.linkedin }}">LI</a>
+      <a href="{{ site.social.instagram }}">IG</a>
+      <a href="{{ site.social.upwork }}">UW</a>
+    </div>
+    <div class="colorbar"><span class="c"></span><span class="m"></span><span class="y"></span><span class="k"></span></div>
+  </div>
+</aside>
+
+<div class="topbar">
+  <a href="{{ '/' | relative_url }}" class="logo"><span class="crossmark"></span> angeliki kalandatze</a>
+  <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</div>
+<div class="mobile-drawer" id="mobileDrawer">
+  <nav><ul>
+    <li><a href="{{ '/work/' | relative_url }}">Work</a></li>
+    <li><a href="{{ '/#services' | relative_url }}">Services</a></li>
+    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+    <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+  </ul></nav>
+  <div>
+    <p class="mono" style="margin-bottom:14px;">Vienna, Austria — available for remote work</p>
+    <div class="social mono" style="display:flex; gap:18px;">
+      <a href="{{ site.social.linkedin }}">LinkedIn</a>
+      <a href="{{ site.social.instagram }}">Instagram</a>
+      <a href="{{ site.social.upwork }}">Upwork</a>
+    </div>
+  </div>
+</div>
