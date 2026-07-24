@@ -9,7 +9,7 @@ duration: "2023"
 deliverables: "Logo, wordmark, usage guidelines"
 card_glyph: "♞"
 card_color: "#57564F"
-# image: /assets/images/work/chess-hero.jpg
+image: /assets/images/work/chess-academy-hero.jpg
 ---
 
 ## Brief
