@@ -1,8 +1,8 @@
 <aside class="sidebar">
   <div class="sidebar-top">
-   <a href="{{ '/' | relative_url }}" class="logo">
-  <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="angeliki kalandatze" style="height:40px; width:auto;">
-</a>
+    <a href="{{ '/' | relative_url }}" class="logo">
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="angeliki kalandatze" style="height:40px; width:auto;">
+    </a>
     <nav><ul>
       <li><a href="{{ '/work/' | relative_url }}" class="{% if page.url contains '/work' %}active{% endif %}"><span class="dot"></span>Work</a></li>
       <li><a href="{{ '/#services' | relative_url }}"><span class="dot"></span>Services</a></li>
@@ -12,10 +12,8 @@
   </div>
   <div class="sidebar-bottom">
     <p class="avail mono">Vienna, Austria<br>Available for remote work</p>
-    <div class="social mono">
-      <a href="{{ site.social.linkedin }}">LI</a>
-      <a href="{{ site.social.instagram }}">IG</a>
-      <a href="{{ site.social.upwork }}">UW</a>
+    <div class="social">
+      {% include social-icons.html %}
     </div>
     <div class="colorbar"><span class="c"></span><span class="m"></span><span class="y"></span><span class="k"></span></div>
   </div>
@@ -23,9 +21,9 @@
 
 <div class="topbar">
   <a href="{{ '/' | relative_url }}" class="logo">
-  <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="angeliki kalandatze" style="height:40px; width:auto;">
-</a>
-<button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="angeliki kalandatze" style="height:32px; width:auto;">
+  </a>
+  <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
 </div>
 <div class="mobile-drawer" id="mobileDrawer">
   <nav><ul>
@@ -36,10 +34,8 @@
   </ul></nav>
   <div>
     <p class="mono" style="margin-bottom:14px;">Vienna, Austria — available for remote work</p>
-    <div class="social mono" style="display:flex; gap:18px;">
-      <a href="{{ site.social.linkedin }}">LinkedIn</a>
-      <a href="{{ site.social.instagram }}">Instagram</a>
-      <a href="{{ site.social.upwork }}">Upwork</a>
+    <div class="social" style="display:flex; gap:18px;">
+      {% include social-icons.html %}
     </div>
   </div>
 </div>

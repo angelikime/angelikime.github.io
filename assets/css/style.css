@@ -47,6 +47,9 @@ img{max-width:100%; display:block;}
 .sidebar nav a:hover, .sidebar nav a.active{color:var(--magenta);}
 .sidebar-bottom .avail{font-size:13px; margin-bottom:16px; color:var(--ink-soft);}
 .sidebar-bottom .social{display:flex; gap:16px; margin-bottom:20px;}
+.social a{color:var(--ink-soft); display:inline-flex;}
+.social a:hover{color:var(--magenta);}
+.social svg{width:18px; height:18px; stroke:currentColor; fill:none;}
 .topbar{display:none;}
 main{flex:1; min-width:0;}
 .wrap{max-width:900px; margin:0 auto; padding:0 40px;}

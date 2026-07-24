@@ -6,7 +6,6 @@ permalink: /work/
 <section class="section" style="padding-top:64px;">
   <div class="section-head">
     <h2>Work</h2>
-    <p class="mono">Branding — Packaging — Print — Digital — Events</p>
   </div>
 
   <div class="filters">
