@@ -1,12 +1,12 @@
 ---
 # ── BASIC INFO ──────────────────────────────────────────────
-title: "Keratsini-Drapetsona Chess Academy — logo & wordmark"
+title: "Chess Academy — logo design"
 tags: [Branding]
 excerpt: "Logo & wordmark design."
 dek: "A clean, teachable mark for a growing chess school, designed to work as small as a badge and as large as a banner."
 
 # ── META BOX (top right on the project page) ────────────────
-client: "Keratsini-Drapetsona Chess Academy"
+client: "Atlantas Chess Academy"
 title: "Keratsini-Drapetsona Chess Academy — logo design"
 excerpt: "Logo design, applied across banners & merchandise."
 role: "Logo design & brand application"
