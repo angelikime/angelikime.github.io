@@ -28,7 +28,16 @@ layout: default
 <div class="project-content">
   {{ content }}
 </div>
-
+{% if page.gallery %}
+<section class="section" style="padding-top:8px;">
+  <h2 style="font-family:'Fraunces',serif; font-size:22px; font-weight:500; margin-bottom:20px;">Gallery</h2>
+  <div class="project-gallery">
+    {% for img in page.gallery %}
+      <div class="gallery-item"><img src="{{ img | relative_url }}" alt="{{ page.title }}"></div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 {% if page.testimonial %}
 <section class="testimonial">
   <blockquote>&ldquo;{{ page.testimonial }}&rdquo;

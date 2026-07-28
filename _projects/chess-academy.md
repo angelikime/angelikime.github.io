@@ -6,17 +6,19 @@ excerpt: "Logo & wordmark design."
 dek: "A clean, teachable mark for a growing chess school, designed to work as small as a badge and as large as a banner."
 
 # ── META BOX (top right on the project page) ────────────────
+client: "Keratsini-Drapetsona Chess Academy"
 title: "Keratsini-Drapetsona Chess Academy — logo design"
 excerpt: "Logo design, applied across banners & merchandise."
 role: "Logo design & brand application"
-deliverables: "Logo, banner & t-shirt application"
+duration: "2023"
+deliverables: "Logo, banner & t-shirt application, usage guidelines"
 
 # ── CARD APPEARANCE (used only if no hero image is set) ─────
 card_glyph: "♞"
 card_color: "#57564F"
 
 # ── HERO IMAGE ─────
-# image: /assets/images/work/chess-hero.jpg
+# image: /assets/images/work/chess-academy-hero.jpg
 
 # ── GALLERY (optional) ─
 # gallery:
