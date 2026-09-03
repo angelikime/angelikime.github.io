@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Work
-permalink: /work/
+permalink: /projects/
 ---
 <section class="section" style="padding-top:64px;">
   <div class="section-head">
