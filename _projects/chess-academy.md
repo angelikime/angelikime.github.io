@@ -18,7 +18,7 @@ card_glyph: "♞"
 card_color: "#57564F"
 
 # ── HERO IMAGE ─────
-# image: /assets/images/work/chess-academy-hero.jpg
+image: /assets/images/work/chess-academy-hero.jpg
 
 # ── GALLERY (optional) ─
 # gallery:
