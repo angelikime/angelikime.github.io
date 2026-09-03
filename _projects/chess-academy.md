@@ -21,11 +21,11 @@ card_color: "#57564F"
 image: /assets/images/projects/chess-academy-hero.jpg
 
 # ── GALLERY (optional) ─
-# gallery:
-#   - /assets/images/projects/chess-gallery-1.jpg
-#   - /assets/images/projects/chess-gallery-2.jpg
-#   - /assets/images/projects/chess-gallery-3.jpg
-#   - /assets/images/projects/chess-gallery-4.jpg
+gallery:
+  - /assets/images/projects/chess-gallery-1.jpg
+  - /assets/images/projects/chess-gallery-2.jpg
+  - /assets/images/projects/chess-gallery-3.jpg
+  - /assets/images/projects/chess-gallery-4.jpg
 ---
 
 ## Brief
