@@ -10,7 +10,7 @@ url: ""
 collections:
   projects:
     output: true
-    permalink: /work/:name/
+    permalink: /projects/:name/
 
 defaults:
   - scope:

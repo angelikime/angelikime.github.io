@@ -11,7 +11,7 @@ card_glyph: "°"
 card_color: "#1B1B1F"
 testimonial: "Angeliki has produced our conference materials for a decade — every year, without a single missed deadline or off-brand detail."
 testimonial_author: "Event organiser, Voxxed Days / Devoxx"
-# image: /assets/images/work/voxxed-hero.jpg
+# image: /assets/images/projects/voxxed-hero.jpg
 ---
 
 ## Brief

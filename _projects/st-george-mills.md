@@ -9,7 +9,7 @@ duration: "2018"
 deliverables: "Full packaging range, print-ready artwork"
 card_glyph: "SGM"
 card_color: "#8B8778"
-# image: /assets/images/work/sgm-hero.jpg
+# image: /assets/images/projects/sgm-hero.jpg
 ---
 
 ## Brief

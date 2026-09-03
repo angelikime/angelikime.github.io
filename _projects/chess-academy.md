@@ -18,14 +18,14 @@ card_glyph: "♞"
 card_color: "#57564F"
 
 # ── HERO IMAGE ─────
-image: /assets/images/work/chess-academy-hero.jpg
+image: /assets/images/projects/chess-academy-hero.jpg
 
 # ── GALLERY (optional) ─
 # gallery:
-#   - /assets/images/work/chess-gallery-1.jpg
-#   - /assets/images/work/chess-gallery-2.jpg
-#   - /assets/images/work/chess-gallery-3.jpg
-#   - /assets/images/work/chess-gallery-4.jpg
+#   - /assets/images/projects/chess-gallery-1.jpg
+#   - /assets/images/projects/chess-gallery-2.jpg
+#   - /assets/images/projects/chess-gallery-3.jpg
+#   - /assets/images/projects/chess-gallery-4.jpg
 ---
 
 ## Brief

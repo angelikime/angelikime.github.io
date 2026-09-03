@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<a href="{{ '/work/' | relative_url }}" class="back mono">&larr; Back to work</a>
+<a href="{{ '/projects/' | relative_url }}" class="back mono">&larr; Back to projects</a>
 
 <section class="p-head">
   <div>
@@ -28,6 +28,7 @@ layout: default
 <div class="project-content">
   {{ content }}
 </div>
+
 {% if page.gallery %}
 <section class="section" style="padding-top:8px;">
   <h2 style="font-family:'Fraunces',serif; font-size:22px; font-weight:500; margin-bottom:20px;">Gallery</h2>
@@ -38,6 +39,7 @@ layout: default
   </div>
 </section>
 {% endif %}
+
 {% if page.testimonial %}
 <section class="testimonial">
   <blockquote>&ldquo;{{ page.testimonial }}&rdquo;
@@ -46,6 +48,6 @@ layout: default
 {% endif %}
 
 <div class="next">
-  <a href="{{ '/work/' | relative_url }}" class="side mono">&larr; All projects</a>
+  <a href="{{ '/projects/' | relative_url }}" class="side mono">&larr; All projects</a>
   <a href="{{ '/contact/' | relative_url }}" class="side mono">Start a project &rarr;</a>
 </div>

@@ -9,7 +9,7 @@ duration: "2021"
 deliverables: "Logo, brand guidelines, website"
 card_glyph: "°"
 card_color: "#DE2C6C"
-# image: /assets/images/work/playground-hero.jpg
+# image: /assets/images/projects/playground-hero.jpg
 ---
 
 ## Brief
