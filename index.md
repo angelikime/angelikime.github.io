@@ -7,7 +7,7 @@ title: Home
   <h1 class="headline">Brand, print and packaging design, <em>built to hold up</em>.</h1>
   <p class="sub">{{ site.description }}</p>
   <div class="hero-cta">
-    <a href="{{ '/work/' | relative_url }}" class="btn btn-primary">View the work &rarr;</a>
+    <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary">View the work &rarr;</a>
     <a href="{{ '/contact/' | relative_url }}" class="btn btn-ghost">Start a project</a>
   </div>
 </section>
