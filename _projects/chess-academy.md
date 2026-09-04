@@ -26,9 +26,9 @@ gallery:
     caption: "Logo system — colour, mono & reversed"
   - image: /assets/images/projects/chess-academy-poster.jpg
     caption: "Tournament poster"
-  - image: /assets/images/projects/chess-gallery-tshirts.jpg
+  - image: /assets/images/projects/chess-academy-tshirts.jpg
     caption: "Apparel application"
-  - image: /assets/images/projects/chess-gallery-fabric-banner.jpg
+  - image: /assets/images/projects/chess-academy-fabric-banner.jpg
     caption: "Banner application"
 ---
 
