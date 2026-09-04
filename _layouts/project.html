@@ -33,8 +33,11 @@ layout: default
 <section class="section" style="padding-top:8px;">
   <h2 style="font-family:'Fraunces',serif; font-size:22px; font-weight:500; margin-bottom:20px;">Gallery</h2>
   <div class="project-gallery">
-    {% for img in page.gallery %}
-      <div class="gallery-item"><img src="{{ img | relative_url }}" alt="{{ page.title }}"></div>
+    {% for item in page.gallery %}
+      <figure class="gallery-item">
+        <div class="img-frame"><img src="{{ item.image | relative_url }}" alt="{{ item.caption | default: page.title }}"></div>
+        {% if item.caption %}<figcaption>{{ item.caption }}</figcaption>{% endif %}
+      </figure>
     {% endfor %}
   </div>
 </section>

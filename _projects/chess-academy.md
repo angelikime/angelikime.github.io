@@ -22,10 +22,14 @@ image: /assets/images/projects/chess-academy-hero.jpg
 
 # ── GALLERY (optional) ─
 gallery:
-  - /assets/images/projects/chess-academy-logo-system.jpg
-  - /assets/images/projects/chess-academy-poster.jpg
-  - /assets/images/projects/chess-gallery-tshirts.jpg
-  - /assets/images/projects/chess-gallery-fabric-banner.jpg
+  - image: /assets/images/projects/chess-academy-logo-system.jpg
+    caption: "Logo system — colour, mono & reversed"
+  - image: /assets/images/projects/chess-academy-poster.jpg
+    caption: "Tournament poster"
+  - image: /assets/images/projects/chess-gallery-tshirts.jpg
+    caption: "Apparel application"
+  - image: /assets/images/projects/chess-gallery-fabric-banner.jpg
+    caption: "Banner application"
 ---
 
 ## Brief
