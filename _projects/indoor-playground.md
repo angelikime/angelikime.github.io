@@ -7,7 +7,7 @@ excerpt: "Full brand identity & content system for an indoor playground & roller
 # ── META BOX (top right on the project page) ────────────────
 client: "Fun Factory Roller Disco"
 role: "Full brand identity, web design & content"
-duration: "2021"
+duration: "2024-2026"
 deliverables: "Logo, in-store graphics, invitations, website, social content, banners & posters"
 live_url: "https://funfactoryroller.com/"
 
@@ -19,9 +19,9 @@ card_color: "#DE2C6C"
 image: /assets/images/projects/indoor-playground-hero.jpg
 
 # ── GALLERY ─────────────────────────────────────────────────
-# gallery:
-#   - image: /assets/images/projects/fun-factory-gallery-1.jpg
-#     caption: "Logo & brand system"
+gallery:
+   - image: /assets/images/projects/fun-factory-gallery-1.jpg
+     caption: "Logo system — colour, mono & reversed"
 #   - image: /assets/images/projects/fun-factory-gallery-2.jpg
 #     caption: "In-store graphics"
 #   - image: /assets/images/projects/fun-factory-gallery-3.jpg
@@ -40,7 +40,7 @@ Fun Factory Roller Disco needed a complete brand built from the ground up — no
 
 ## Approach
 
-I took the project end to end. The mark leans fully into a maximalist, illustrated style — a rainbow-gradient roller skate doubling as the "factory" chimney, with three kids peeking out from behind it — designed to grab a kid's attention instantly, while the circular badge format keeps it clean enough to work as a stamp, a social avatar, or printed on a t-shirt. From there, the same energy was carried through in-store graphics, birthday party invitations, banners and posters, a full WordPress website with a live news & events section, and an ongoing social media content calendar — including the copy for each post.
+I took the project end to end. The mark leans fully into a maximalist, illustrated style — a rainbow-gradient roller skate doubling as the "factory" chimney, with three kids peeking out from behind it — designed to grab a kid's attention instantly, while the circular badge format keeps it clean enough to work as a stamp, a social avatar, or printed on a t-shirt. It was built as a small system from the start — a black line-art version, a reversed white-on-black version, and colour variations — so there's always a version that works whether it's printed on a dark t-shirt or used as a small social avatar. From there, the same energy was carried through in-store graphics, birthday party invitations, banners and posters, a full WordPress website with a live news & events section, and an ongoing social media content calendar — including the copy for each post.
 
 ## Result
 
