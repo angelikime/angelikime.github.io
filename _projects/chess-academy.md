@@ -2,13 +2,10 @@
 # ── BASIC INFO ──────────────────────────────────────────────
 title: "Atlantas Chess Academy"
 tags: [Branding]
-excerpt: "Logo & wordmark design."
-dek: "A clean, teachable mark for a growing chess school, designed to work as small as a badge and as large as a banner."
+excerpt: "Logo system, applied across banners, apparel & event materials."
 
 # ── META BOX (top right on the project page) ────────────────
 client: "Atlantas Chess Academy, Keratsini-Drapetsona"
-title: "Atlantas Chess Academy"
-excerpt: "Logo design, applied across banners & merchandise."
 role: "Logo design & brand application"
 duration: "2023"
 deliverables: "Logo, banner & t-shirt application, usage guidelines"
@@ -34,12 +31,12 @@ gallery:
 
 ## Brief
 
-A growing chess school needed a mark that felt credible to parents and engaging to the kids learning to play.
+Atlantas Chess Academy, a growing chess school in Keratsini-Drapetsona, needed a mark that felt credible to parents and instantly recognisable to the kids learning to play — something that could carry the club's identity from a certificate to a tournament banner without losing character.
 
 ## Approach
 
-A simple knight-inspired mark paired with a confident wordmark, designed to hold up at any size from a badge to a banner.
+The mark takes the shape of a chess king, with "ΑΤΛΑΝΤΑΣ" set vertically inside its silhouette — the academy's name built directly into the piece itself, rather than sitting beside it. The system was designed in three versions from the start: full colour, solid black, and reversed white-on-black, so the club always has the right file on hand whether it's going on a certificate, a dark t-shirt, or event signage.
 
 ## Result
 
-A flexible identity now used across the academy's signage, certificates and social channels.
+The identity now travels across the academy's full range of materials — banners, t-shirts, tournament posters and match signage — carrying the same mark and colour system everywhere it appears, at tournaments and in the club's day-to-day materials alike.
