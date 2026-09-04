@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<a href="{{ '/projects/' | relative_url }}" class="back mono">&larr; Back to projects</a>
+<a href="{{ '/projects/' | relative_url }}" class="back mono">&larr; Back to work</a>
 
 <section class="p-head">
   <div>
@@ -14,6 +14,9 @@ layout: default
     {% if page.role %}<div class="meta-row"><span>Role</span><span>{{ page.role }}</span></div>{% endif %}
     {% if page.duration %}<div class="meta-row"><span>Duration</span><span>{{ page.duration }}</span></div>{% endif %}
     {% if page.deliverables %}<div class="meta-row"><span>Deliverables</span><span>{{ page.deliverables }}</span></div>{% endif %}
+    {% if page.live_url %}
+      <a href="{{ page.live_url }}" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:20px; width:100%; justify-content:center;">Visit live site &rarr;</a>
+    {% endif %}
   </div>
 </section>
 
