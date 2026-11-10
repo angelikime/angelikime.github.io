@@ -135,7 +135,7 @@ h1.headline em{font-style:italic; color:var(--magenta); font-weight:500;}
 .meta-row{display:flex; justify-content:space-between; padding:9px 0; border-bottom:1px solid var(--line); font-size:13px;}
 .meta-row span:first-child{color:var(--ink-soft);}
 .meta-row span:last-child{font-weight:500; text-align:right;}
-.hero-media{aspect-ratio:16/8; background:var(--ink); margin-bottom:32px; display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.6); font-family:'IBM Plex Mono', monospace; font-size:12px;}
+.hero-media{aspect-ratio:4/3; background:var(--ink); margin-bottom:32px; display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.6); font-family:'IBM Plex Mono', monospace; font-size:12px;}
 .hero-media img{width:100%; height:100%; object-fit:cover;}
 .project-content{font-size:15px; color:var(--ink-soft); max-width:640px;}
 .project-content h2{font-family:'Fraunces', serif; font-size:22px; font-weight:500; color:var(--ink); margin:36px 0 12px;}
@@ -213,3 +213,14 @@ footer.site-footer{padding:24px 0 40px; display:flex; justify-content:space-betw
   .about-block{grid-template-columns:1fr;}
   .row-2{grid-template-columns:1fr;}
 }
+
+/* lightbox for gallery images */
+.gallery-item .img-frame{cursor:zoom-in;}
+.lb{position:fixed; inset:0; z-index:100; background:rgba(27,27,31,.94); display:flex; align-items:center; justify-content:center; padding:24px;}
+.lb[hidden]{display:none;}
+.lb figure{margin:0; max-width:min(1400px,100%); text-align:center;}
+.lb img{max-width:100%; max-height:calc(100vh - 110px); display:block; margin:0 auto; box-shadow:0 10px 40px rgba(0,0,0,.4);}
+.lb figcaption{margin-top:12px; color:#EEEBE3; font:12px 'IBM Plex Mono',monospace;}
+.lb button{position:absolute; background:none; border:0; color:#EEEBE3; font-size:44px; line-height:1; cursor:pointer; padding:12px 18px; opacity:.8;}
+.lb button:hover{opacity:1;}
+.lb-x{top:8px; right:12px;} .lb-p{left:4px; top:50%; transform:translateY(-50%);} .lb-n{right:4px; top:50%; transform:translateY(-50%);}
