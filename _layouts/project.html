@@ -32,7 +32,54 @@ layout: default
   {{ content }}
 </div>
 
-{% if page.gallery %}
+{% comment %}
+  EDITIONS (optional). Add an `editions:` list to the project's front matter
+  (see _projects/voxxed-devoxx.md). Each edition has a city, a year, a thumb
+  and its own gallery. Projects without `editions:` keep the plain gallery below.
+{% endcomment %}
+{% if page.editions %}
+  {% assign cities = page.editions | map: "city" | uniq %}
+  {% if page.facts %}
+  <section class="facts">
+    {% for f in page.facts %}<div><b>{{ f.value }}</b><span>{{ f.label }}</span></div>{% endfor %}
+  </section>
+  {% endif %}
+  <section class="section ed-section" id="editions" style="padding-top:40px;">
+    <div class="section-head">
+      <h2>Every edition</h2>
+      <p>Pick an edition to see its materials.</p>
+    </div>
+    <div class="filters ed-filters" role="group" aria-label="Filter by city">
+      <button type="button" data-city="all" class="active">All</button>
+      {% for c in cities %}<button type="button" data-city="{{ c }}">{{ c }}</button>{% endfor %}
+    </div>
+    <div class="eds">
+      {% for e in page.editions %}
+      <button type="button" class="ed{% if forloop.first %} is-selected{% endif %}" data-city="{{ e.city }}" data-target="ed-{{ forloop.index }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">
+        <div class="im">{% if e.thumb %}<img src="{{ e.thumb | relative_url }}" alt="" loading="lazy">{% endif %}</div>
+        <div class="tx"><b>{{ e.city }}</b><span class="mono">{{ e.year }}</span></div>
+      </button>
+      {% endfor %}
+    </div>
+    <div class="ed-details">
+      {% for e in page.editions %}
+      <div class="ed-panel" id="ed-{{ forloop.index }}"{% unless forloop.first %} hidden{% endunless %}>
+        <h3>Voxxed Days {{ e.city }} {{ e.year }}</h3>
+        <p class="mono">Selected materials</p>
+        <div class="project-gallery">
+          {% for item in e.gallery %}
+          <figure class="gallery-item">
+            <div class="img-frame"><img src="{{ item.image | relative_url }}" alt="{{ item.caption | default: page.title }}" loading="lazy"></div>
+            {% if item.caption %}<figcaption>{{ item.caption }}</figcaption>{% endif %}
+          </figure>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  <script src="{{ '/assets/js/editions.js' | relative_url }}"></script>
+{% elsif page.gallery %}
 <section class="section" style="padding-top:8px;">
   <h2 style="font-family:'Fraunces',serif; font-size:22px; font-weight:500; margin-bottom:20px;">Gallery</h2>
   <div class="project-gallery">

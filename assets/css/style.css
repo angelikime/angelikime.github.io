@@ -161,6 +161,23 @@ form{display:flex; flex-direction:column; gap:20px;}
 
 footer.site-footer{padding:24px 0 40px; display:flex; justify-content:space-between; font-size:12px; color:var(--ink-soft); flex-wrap:wrap; gap:12px; border-top:1px solid var(--line);}
 
+/* ===== project editions (facts, city filter, edition strip, panels) ===== */
+.facts{display:grid; grid-template-columns:repeat(3,1fr); gap:20px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:22px 0; margin:8px 0;}
+.facts b{font-family:'Fraunces', serif; font-weight:500; font-size:44px; line-height:1.05; display:block;}
+.facts span{font-size:13px; color:var(--ink-soft);}
+.eds{display:grid; grid-template-columns:repeat(auto-fill,minmax(118px,1fr)); gap:10px; margin-bottom:8px;}
+.ed{background:var(--paper-card); border:1px solid var(--line); padding:0; text-align:left; font:inherit; color:inherit; cursor:pointer; overflow:hidden;}
+.ed .im{aspect-ratio:4/3; position:relative; background:repeating-linear-gradient(135deg,var(--paper-card),var(--paper-card) 7px,var(--paper) 7px,var(--paper) 14px);}
+.ed .im img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover;}
+.ed .tx{padding:8px 10px; font-size:13px; line-height:1.35;}
+.ed .tx b{display:block; font-weight:500;}
+.ed[aria-pressed="true"]{border-color:var(--magenta); box-shadow:0 0 0 1px var(--magenta);}
+.ed[hidden], .ed-panel[hidden]{display:none;}
+.ed-details{margin-top:32px;}
+.ed-panel h3{font-family:'Fraunces', serif; font-weight:500; font-size:22px; margin-bottom:6px;}
+.ed-panel > p{margin-bottom:20px;}
+@media (max-width:900px){ .facts b{font-size:34px;} }
+
 /* ===== mobile drawer (hidden by default at ALL widths — only .open + the
    max-width:900px media query below make it visible/usable) ===== */
 .mobile-drawer{

@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<a href="{{ '/projects/' | relative_url }}" class="back mono">&larr; Back to work</a>
+
+<section class="p-head">
+  <div>
+    <p class="mono" style="margin-bottom:16px;">{{ page.tags | join: " — " }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="dek">{{ page.excerpt | default: page.dek }}</p>
+  </div>
+  <div class="meta">
+    {% if page.client %}<div class="meta-row"><span>Client</span><span>{{ page.client }}</span></div>{% endif %}
+    {% if page.role %}<div class="meta-row"><span>Role</span><span>{{ page.role }}</span></div>{% endif %}
+    {% if page.duration %}<div class="meta-row"><span>Duration</span><span>{{ page.duration }}</span></div>{% endif %}
+    {% if page.deliverables %}<div class="meta-row"><span>Deliverables</span><span>{{ page.deliverables }}</span></div>{% endif %}
+    {% if page.live_url %}
+      <a href="{{ page.live_url }}" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:20px; width:100%; justify-content:center;">Visit live site &rarr;</a>
+    {% endif %}
+  </div>
+</section>
+
+<div class="hero-media">
+  {% if page.image %}
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  {% else %}
+    [ hero image — add page.image in front matter ]
+  {% endif %}
+</div>
+
+<div class="project-content">
+  {{ content }}
+</div>
+
+{% if page.gallery %}
+<section class="section" style="padding-top:8px;">
+  <h2 style="font-family:'Fraunces',serif; font-size:22px; font-weight:500; margin-bottom:20px;">Gallery</h2>
+  <div class="project-gallery">
+    {% for item in page.gallery %}
+      <figure class="gallery-item">
+        <div class="img-frame"><img src="{{ item.image | relative_url }}" alt="{{ item.caption | default: page.title }}"></div>
+        {% if item.caption %}<figcaption>{{ item.caption }}</figcaption>{% endif %}
+      </figure>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.testimonial %}
+<section class="testimonial">
+  <blockquote>&ldquo;{{ page.testimonial }}&rdquo;
+  <cite class="mono">{{ page.testimonial_author }}</cite></blockquote>
+</section>
+{% endif %}
+
+<div class="next">
+  <a href="{{ '/projects/' | relative_url }}" class="side mono">&larr; All projects</a>
+  <a href="{{ '/contact/' | relative_url }}" class="side mono">Start a project &rarr;</a>
+</div>
