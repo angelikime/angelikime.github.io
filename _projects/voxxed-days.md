@@ -78,6 +78,22 @@ editions:
         caption: "Venue board, 5 × 1.25 m"
       - image: /assets/images/projects/voxxed/2022/hero-video.jpg
         caption: "Video hero frame"
+  - city: Thessaloniki
+    year: 2023
+    thumb: /assets/images/projects/voxxed/2023/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/voxxed/2023/badges-lanyards.jpg
+        caption: "Badges and lanyards, three categories"
+      - image: /assets/images/projects/voxxed/2023/newspaper-ad.jpg
+        caption: "Newspaper advertisement"
+      - image: /assets/images/projects/voxxed/2023/backlit.jpg
+        caption: "Backlit sticker"
+      - image: /assets/images/projects/voxxed/2023/venue-screen-boards.jpg
+        caption: "Venue board and screen board"
+      - image: /assets/images/projects/voxxed/2023/calendar.jpg
+        caption: "2024 triangular desk calendar, 3 sides per print, shown with its flat layout"
+      - image: /assets/images/projects/voxxed/2023/hero-video.jpg
+        caption: "Video hero frame"
 ---
 
 ## Brief
