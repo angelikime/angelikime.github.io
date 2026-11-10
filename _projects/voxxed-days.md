@@ -1,9 +1,9 @@
 ---
-title: "Ten years with Voxxed Days & Devoxx"
+title: "Voxxed Days"
 tags: [Events]
 excerpt: "Conference identity system across a decade."
 dek: "Badges, programs, banners and stage graphics for one of Europe's largest developer conference networks — a decade-long identity system that travels across cities and years without losing consistency."
-client: "Voxxed Days / Devoxx"
+client: "Voxxed Days"
 role: "Brand & print design"
 duration: "2016 — 2026"
 deliverables: "Badges, banners, programs, signage"
@@ -66,6 +66,18 @@ editions:
         caption: "Video hero frame"
       - image: /assets/images/projects/voxxed/2018/web-banners.jpg
         caption: "Web banners"
+  - city: Thessaloniki
+    year: 2022
+    thumb: /assets/images/projects/voxxed/2022/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/voxxed/2022/badges-lanyard.jpg
+        caption: "Badges and lanyard, five categories"
+      - image: /assets/images/projects/voxxed/2022/poster-backlit.jpg
+        caption: "Poster and backlit sticker"
+      - image: /assets/images/projects/voxxed/2022/venue-board.jpg
+        caption: "Venue board, 5 × 1.25 m"
+      - image: /assets/images/projects/voxxed/2022/hero-video.jpg
+        caption: "Video hero frame"
 ---
 
 ## Brief
