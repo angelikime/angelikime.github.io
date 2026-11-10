@@ -54,6 +54,18 @@ editions:
         caption: "Social cards, keynote speakers"
       - image: /assets/images/projects/voxxed/2017/web-banners.jpg
         caption: "Web banners"
+  - city: Thessaloniki
+    year: 2018
+    thumb: /assets/images/projects/voxxed/2018/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/voxxed/2018/lanyards-badges.jpg
+        caption: "Badges and lanyards, five categories"
+      - image: /assets/images/projects/voxxed/2018/programme.jpg
+        caption: "Printed programme"
+      - image: /assets/images/projects/voxxed/2018/hero-video.jpg
+        caption: "Video hero frame"
+      - image: /assets/images/projects/voxxed/2018/web-banners.jpg
+        caption: "Web banners"
 ---
 
 ## Brief
