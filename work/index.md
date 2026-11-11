@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Work
+title: Projects
 permalink: /projects/
 ---
 <section class="section" style="padding-top:64px;">
