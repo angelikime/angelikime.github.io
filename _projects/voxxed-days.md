@@ -87,7 +87,7 @@ editions:
       - image: /assets/images/projects/voxxed/2023/newspaper-ad.jpg
         caption: "Newspaper advertisement"
       - image: /assets/images/projects/voxxed/2023/backlit.jpg
-        caption: "Backlit sticker"
+        caption: "Backlit lightbox, 135x290 cm"
       - image: /assets/images/projects/voxxed/2023/venue-screen-boards.jpg
         caption: "Venue board and screen board"
       - image: /assets/images/projects/voxxed/2023/calendar.jpg
@@ -103,7 +103,7 @@ editions:
       - image: /assets/images/projects/voxxed/2024/newspaper-ad.jpg
         caption: "Newspaper advertisement"
       - image: /assets/images/projects/voxxed/2024/backlit.jpg
-        caption: "Backlit sticker"
+        caption: "Backlit lightbox, 135x290 cm"
       - image: /assets/images/projects/voxxed/2024/venue-screen-boards.jpg
         caption: "Venue board and screen board"
       - image: /assets/images/projects/voxxed/2024/reception-banner.jpg
@@ -119,7 +119,7 @@ editions:
       - image: /assets/images/projects/voxxed/2025/badges-lanyards.jpg
         caption: "Badges and lanyards, three categories"
       - image: /assets/images/projects/voxxed/2025/backlit.jpg
-        caption: "Backlit sticker"
+        caption: "Backlit lightbox, 135x290 cm"
       - image: /assets/images/projects/voxxed/2025/reception-screen-boards.jpg
         caption: "Reception board and screen board"
       - image: /assets/images/projects/voxxed/2025/banner-square-ad.jpg
@@ -129,6 +129,36 @@ editions:
       - image: /assets/images/projects/voxxed/2025/gift-bag.jpg
         caption: "Gift bag with the 16x16 cm sticker"
       - image: /assets/images/projects/voxxed/2025/hero-video.jpg
+        caption: "Video hero frame"
+  - city: Thessaloniki
+    year: 2026
+    thumb: /assets/images/projects/voxxed/2026/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/voxxed/2026/logo-10-years.jpg
+        caption: "10 Years anniversary logo, horizontal and stacked, light and dark versions"
+      - image: /assets/images/projects/voxxed/2026/badges-lanyards.jpg
+        caption: "Badges and lanyards, five categories"
+      - image: /assets/images/projects/voxxed/2026/backlit.jpg
+        caption: "Backlit lightbox, 135x290 cm"
+      - image: /assets/images/projects/voxxed/2026/cubes.jpg
+        caption: "Three cubes, 40x50, 40x70 and 40x90 cm, shown side by side to scale"
+      - image: /assets/images/projects/voxxed/2026/led-screens.jpg
+        caption: "Reception board and screen board on LED screens"
+      - image: /assets/images/projects/voxxed/2026/newspaper-ad.jpg
+        caption: "Newspaper advertisement"
+      - image: /assets/images/projects/voxxed/2026/community-hanging.jpg
+        caption: "Community Corner sign, 200x200 cm, hung from the ceiling"
+      - image: /assets/images/projects/voxxed/2026/rollups-wayfinding.jpg
+        caption: "Roll-up banners for wayfinding: registration, lounge, Room 6, Speakers' Lounge"
+      - image: /assets/images/projects/voxxed/2026/rollups-stations.jpg
+        caption: "Roll-up banners for stations and sponsors, press wall and after party"
+      - image: /assets/images/projects/voxxed/2026/podium-scan.jpg
+        caption: "Podium with the 55 cm front panel and the badge-scanning roll-up, shown to scale"
+      - image: /assets/images/projects/voxxed/2026/lunch-bag.jpg
+        caption: "Lunch bag with the 16x16 cm sticker"
+      - image: /assets/images/projects/voxxed/2026/digital.jpg
+        caption: "Digital ads: story, banners and social squares"
+      - image: /assets/images/projects/voxxed/2026/hero-video.jpg
         caption: "Video hero frame"
 ---
 
