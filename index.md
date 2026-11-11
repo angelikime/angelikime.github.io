@@ -14,7 +14,7 @@ title: Home
 
 <section class="section">
   <div class="section-head">
-    <h2>Selected work</h2>
+    <h2>Selected projects</h2>
     <p class="mono">Branding — Packaging — Print — Events</p>
   </div>
   <div class="grid">

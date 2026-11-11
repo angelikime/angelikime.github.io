@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 <section class="section" style="padding-top:64px;">
   <div class="section-head">
-    <h2>Work</h2>
+    <h2>Projects</h2>
   </div>
 
   <div class="filters">
