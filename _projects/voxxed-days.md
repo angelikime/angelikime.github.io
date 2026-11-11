@@ -74,6 +74,22 @@ editions:
         caption: "Staff polo shirts"
       - image: /assets/images/projects/voxxed/athens/2017/hero-video.jpg
         caption: "Video hero frame"
+  - city: Athens
+    year: 2018
+    thumb: /assets/images/projects/voxxed/athens/2018/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/voxxed/athens/2018/badges-lanyards.jpg
+        caption: "Badges and branded lanyards"
+      - image: /assets/images/projects/voxxed/athens/2018/programme.jpg
+        caption: "Printed programme, cover and schedule spreads"
+      - image: /assets/images/projects/voxxed/athens/2018/web-banners.jpg
+        caption: "Animated web banners and registration ads"
+      - image: /assets/images/projects/voxxed/athens/2018/wide-banners.jpg
+        caption: "Wide event banners"
+      - image: /assets/images/projects/voxxed/athens/2018/social-card.jpg
+        caption: "Speaker social card, editable PowerPoint template"
+      - image: /assets/images/projects/voxxed/athens/2018/hero-video.jpg
+        caption: "Video hero frame"
   - city: Thessaloniki
     year: 2018
     thumb: /assets/images/projects/voxxed/thessaloniki/2018/thumb.jpg
