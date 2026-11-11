@@ -94,6 +94,24 @@ editions:
         caption: "2024 triangular desk calendar, 3 sides per print, shown with its flat layout"
       - image: /assets/images/projects/voxxed/2023/hero-video.jpg
         caption: "Video hero frame"
+  - city: Thessaloniki
+    year: 2024
+    thumb: /assets/images/projects/voxxed/2024/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/voxxed/2024/badges-lanyards.jpg
+        caption: "Badges and lanyards, three categories"
+      - image: /assets/images/projects/voxxed/2024/newspaper-ad.jpg
+        caption: "Newspaper advertisement"
+      - image: /assets/images/projects/voxxed/2024/backlit.jpg
+        caption: "Backlit sticker"
+      - image: /assets/images/projects/voxxed/2024/venue-screen-boards.jpg
+        caption: "Venue board and screen board"
+      - image: /assets/images/projects/voxxed/2024/reception-banner.jpg
+        caption: "Reception board and event banner"
+      - image: /assets/images/projects/voxxed/2024/calendar.jpg
+        caption: "2025 triangular desk calendar, 3 sides per print, shown with its flat layout"
+      - image: /assets/images/projects/voxxed/2024/hero-video.jpg
+        caption: "Video hero frame"
 ---
 
 ## Brief
