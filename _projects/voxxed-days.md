@@ -11,7 +11,7 @@ card_glyph: "°"
 card_color: "#1B1B1F"
 
 # Hero image (top of the page) and the wide thumbnail used on the Work grid
-image: /assets/images/projects/voxxed/2025/badges-lanyards.jpg
+image: /assets/images/projects/voxxed/thessaloniki/2025/badges-lanyards.jpg
 card_image: /assets/images/projects/voxxed/card.jpg
 
 # Numbers shown above the edition picker. Edit freely.
@@ -24,142 +24,162 @@ facts:
     label: "years"
 
 # One block per edition. To add a new one, copy a block, change the city, year,
-# thumb and gallery paths, and add the images to assets/images/projects/voxxed/<year>/.
+# thumb and gallery paths, and add the images to assets/images/projects/voxxed/<city>/<year>/.
 editions:
   - city: Thessaloniki
     year: 2016
-    thumb: /assets/images/projects/voxxed/2016/thumb.jpg
+    thumb: /assets/images/projects/voxxed/thessaloniki/2016/thumb.jpg
     gallery:
-      - image: /assets/images/projects/voxxed/2016/lanyards-badges.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2016/lanyards-badges.jpg
         caption: "Badges and lanyards, four categories"
-      - image: /assets/images/projects/voxxed/2016/rollup-poster.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2016/rollup-poster.jpg
         caption: "Roll-up banner and poster"
-      - image: /assets/images/projects/voxxed/2016/programme.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2016/programme.jpg
         caption: "Printed programme"
-      - image: /assets/images/projects/voxxed/2016/magazine-ad.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2016/magazine-ad.jpg
         caption: "Magazine advertisement"
   - city: Thessaloniki
     year: 2017
-    thumb: /assets/images/projects/voxxed/2017/thumb.jpg
+    thumb: /assets/images/projects/voxxed/thessaloniki/2017/thumb.jpg
     gallery:
-      - image: /assets/images/projects/voxxed/2017/lanyards-badges.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2017/lanyards-badges.jpg
         caption: "Badges and lanyards, four categories"
-      - image: /assets/images/projects/voxxed/2017/poster.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2017/poster.jpg
         caption: "Poster"
-      - image: /assets/images/projects/voxxed/2017/programme.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2017/programme.jpg
         caption: "Printed programme"
-      - image: /assets/images/projects/voxxed/2017/magazine-ad.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2017/magazine-ad.jpg
         caption: "Magazine advertisement"
-      - image: /assets/images/projects/voxxed/2017/social-cards.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2017/social-cards.jpg
         caption: "Social cards, keynote speakers"
-      - image: /assets/images/projects/voxxed/2017/web-banners.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2017/web-banners.jpg
         caption: "Web banners"
+  - city: Athens
+    year: 2017
+    thumb: /assets/images/projects/voxxed/athens/2017/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/voxxed/athens/2017/badges-lanyards.jpg
+        caption: "Badges and lanyards, six categories"
+      - image: /assets/images/projects/voxxed/athens/2017/spider-banner.jpg
+        caption: "Spider banner backdrop"
+      - image: /assets/images/projects/voxxed/athens/2017/rollup-banners.jpg
+        caption: "Roll-up banner, 85 x 210 cm"
+      - image: /assets/images/projects/voxxed/athens/2017/programme.jpg
+        caption: "Printed programme, cover and schedule spread"
+      - image: /assets/images/projects/voxxed/athens/2017/magazine-ad.jpg
+        caption: "Magazine advertisement"
+      - image: /assets/images/projects/voxxed/athens/2017/web-banners.jpg
+        caption: "Animated web banners"
+      - image: /assets/images/projects/voxxed/athens/2017/staff-polo.jpg
+        caption: "Staff polo shirts"
+      - image: /assets/images/projects/voxxed/athens/2017/hero-video.jpg
+        caption: "Video hero frame"
   - city: Thessaloniki
     year: 2018
-    thumb: /assets/images/projects/voxxed/2018/thumb.jpg
+    thumb: /assets/images/projects/voxxed/thessaloniki/2018/thumb.jpg
     gallery:
-      - image: /assets/images/projects/voxxed/2018/lanyards-badges.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2018/lanyards-badges.jpg
         caption: "Badges and lanyards, five categories"
-      - image: /assets/images/projects/voxxed/2018/programme.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2018/programme.jpg
         caption: "Printed programme"
-      - image: /assets/images/projects/voxxed/2018/hero-video.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2018/hero-video.jpg
         caption: "Video hero frame"
-      - image: /assets/images/projects/voxxed/2018/web-banners.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2018/web-banners.jpg
         caption: "Web banners"
   - city: Thessaloniki
     year: 2022
-    thumb: /assets/images/projects/voxxed/2022/thumb.jpg
+    thumb: /assets/images/projects/voxxed/thessaloniki/2022/thumb.jpg
     gallery:
-      - image: /assets/images/projects/voxxed/2022/badges-lanyard.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2022/badges-lanyard.jpg
         caption: "Badges and lanyard, five categories"
-      - image: /assets/images/projects/voxxed/2022/poster-backlit.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2022/poster-backlit.jpg
         caption: "Poster and backlit sticker"
-      - image: /assets/images/projects/voxxed/2022/venue-board.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2022/venue-board.jpg
         caption: "Venue board, 5 × 1.25 m"
-      - image: /assets/images/projects/voxxed/2022/hero-video.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2022/hero-video.jpg
         caption: "Video hero frame"
   - city: Thessaloniki
     year: 2023
-    thumb: /assets/images/projects/voxxed/2023/thumb.jpg
+    thumb: /assets/images/projects/voxxed/thessaloniki/2023/thumb.jpg
     gallery:
-      - image: /assets/images/projects/voxxed/2023/badges-lanyards.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2023/badges-lanyards.jpg
         caption: "Badges and lanyards, three categories"
-      - image: /assets/images/projects/voxxed/2023/newspaper-ad.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2023/newspaper-ad.jpg
         caption: "Newspaper advertisement"
-      - image: /assets/images/projects/voxxed/2023/backlit.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2023/backlit.jpg
         caption: "Backlit lightbox, 135x290 cm"
-      - image: /assets/images/projects/voxxed/2023/venue-screen-boards.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2023/venue-screen-boards.jpg
         caption: "Venue board and screen board"
-      - image: /assets/images/projects/voxxed/2023/calendar.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2023/calendar.jpg
         caption: "2024 triangular desk calendar, 3 sides per print, shown with its flat layout"
-      - image: /assets/images/projects/voxxed/2023/hero-video.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2023/hero-video.jpg
         caption: "Video hero frame"
   - city: Thessaloniki
     year: 2024
-    thumb: /assets/images/projects/voxxed/2024/thumb.jpg
+    thumb: /assets/images/projects/voxxed/thessaloniki/2024/thumb.jpg
     gallery:
-      - image: /assets/images/projects/voxxed/2024/badges-lanyards.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2024/badges-lanyards.jpg
         caption: "Badges and lanyards, three categories"
-      - image: /assets/images/projects/voxxed/2024/newspaper-ad.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2024/newspaper-ad.jpg
         caption: "Newspaper advertisement"
-      - image: /assets/images/projects/voxxed/2024/backlit.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2024/backlit.jpg
         caption: "Backlit lightbox, 135x290 cm"
-      - image: /assets/images/projects/voxxed/2024/venue-screen-boards.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2024/venue-screen-boards.jpg
         caption: "Venue board and screen board"
-      - image: /assets/images/projects/voxxed/2024/reception-banner.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2024/reception-banner.jpg
         caption: "Reception board and event banner"
-      - image: /assets/images/projects/voxxed/2024/calendar.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2024/calendar.jpg
         caption: "2025 triangular desk calendar, 3 sides per print, shown with its flat layout"
-      - image: /assets/images/projects/voxxed/2024/hero-video.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2024/hero-video.jpg
         caption: "Video hero frame"
   - city: Thessaloniki
     year: 2025
-    thumb: /assets/images/projects/voxxed/2025/thumb.jpg
+    thumb: /assets/images/projects/voxxed/thessaloniki/2025/thumb.jpg
     gallery:
-      - image: /assets/images/projects/voxxed/2025/badges-lanyards.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2025/badges-lanyards.jpg
         caption: "Badges and lanyards, three categories"
-      - image: /assets/images/projects/voxxed/2025/backlit.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2025/backlit.jpg
         caption: "Backlit lightbox, 135x290 cm"
-      - image: /assets/images/projects/voxxed/2025/reception-screen-boards.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2025/reception-screen-boards.jpg
         caption: "Reception board and screen board"
-      - image: /assets/images/projects/voxxed/2025/banner-square-ad.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2025/banner-square-ad.jpg
         caption: "Event banner and square web ad"
-      - image: /assets/images/projects/voxxed/2025/charging-community.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2025/charging-community.jpg
         caption: "Charging station and Community Corner signs"
-      - image: /assets/images/projects/voxxed/2025/gift-bag.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2025/gift-bag.jpg
         caption: "Gift bag with the 16x16 cm sticker"
-      - image: /assets/images/projects/voxxed/2025/hero-video.jpg
+      - image: /assets/images/projects/voxxed/thessaloniki/2025/hero-video.jpg
         caption: "Video hero frame"
 # ---- Thessaloniki 2026 (20-21 Nov 2026): keep commented until after the conference, then remove the "# " from every line below ----
 #   - city: Thessaloniki
 #     year: 2026
-#     thumb: /assets/images/projects/voxxed/2026/thumb.jpg
+#     thumb: /assets/images/projects/voxxed/thessaloniki/2026/thumb.jpg
 #     gallery:
-#       - image: /assets/images/projects/voxxed/2026/logo-10-years.jpg
+#       - image: /assets/images/projects/voxxed/thessaloniki/2026/logo-10-years.jpg
 #         caption: "10 Years anniversary logo, horizontal and stacked, light and dark versions"
-#       - image: /assets/images/projects/voxxed/2026/badges-lanyards.jpg
+#       - image: /assets/images/projects/voxxed/thessaloniki/2026/badges-lanyards.jpg
 #         caption: "Badges and lanyards, five categories"
-#       - image: /assets/images/projects/voxxed/2026/backlit.jpg
+#       - image: /assets/images/projects/voxxed/thessaloniki/2026/backlit.jpg
 #         caption: "Backlit lightbox, 135x290 cm"
-#       - image: /assets/images/projects/voxxed/2026/cubes.jpg
+#       - image: /assets/images/projects/voxxed/thessaloniki/2026/cubes.jpg
 #         caption: "Three cubes, 40x50, 40x70 and 40x90 cm, shown side by side to scale"
-#       - image: /assets/images/projects/voxxed/2026/led-screens.jpg
+#       - image: /assets/images/projects/voxxed/thessaloniki/2026/led-screens.jpg
 #         caption: "Reception board and screen board on LED screens"
-#       - image: /assets/images/projects/voxxed/2026/newspaper-ad.jpg
+#       - image: /assets/images/projects/voxxed/thessaloniki/2026/newspaper-ad.jpg
 #         caption: "Newspaper advertisement"
-#       - image: /assets/images/projects/voxxed/2026/community-hanging.jpg
+#       - image: /assets/images/projects/voxxed/thessaloniki/2026/community-hanging.jpg
 #         caption: "Community Corner sign, 200x200 cm, hung from the ceiling"
-#       - image: /assets/images/projects/voxxed/2026/rollups-wayfinding.jpg
+#       - image: /assets/images/projects/voxxed/thessaloniki/2026/rollups-wayfinding.jpg
 #         caption: "Roll-up banners for wayfinding: registration, lounge, Room 6, Speakers' Lounge"
-#       - image: /assets/images/projects/voxxed/2026/rollups-stations.jpg
+#       - image: /assets/images/projects/voxxed/thessaloniki/2026/rollups-stations.jpg
 #         caption: "Roll-up banners for stations and sponsors, press wall and after party"
-#       - image: /assets/images/projects/voxxed/2026/podium-scan.jpg
+#       - image: /assets/images/projects/voxxed/thessaloniki/2026/podium-scan.jpg
 #         caption: "Podium with the 55 cm front panel and the badge-scanning roll-up, shown to scale"
-#       - image: /assets/images/projects/voxxed/2026/lunch-bag.jpg
+#       - image: /assets/images/projects/voxxed/thessaloniki/2026/lunch-bag.jpg
 #         caption: "Lunch bag with the 16x16 cm sticker"
-#       - image: /assets/images/projects/voxxed/2026/digital.jpg
+#       - image: /assets/images/projects/voxxed/thessaloniki/2026/digital.jpg
 #         caption: "Digital ads: story, banners and social squares"
-#       - image: /assets/images/projects/voxxed/2026/hero-video.jpg
+#       - image: /assets/images/projects/voxxed/thessaloniki/2026/hero-video.jpg
 #         caption: "Video hero frame"
 ---
 
