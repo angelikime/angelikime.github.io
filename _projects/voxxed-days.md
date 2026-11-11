@@ -75,6 +75,26 @@ editions:
       - image: /assets/images/projects/voxxed/athens/2017/hero-video.jpg
         caption: "Video hero frame"
   - city: Athens
+    year: 2019
+    thumb: /assets/images/projects/voxxed/athens/2019/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/voxxed/athens/2019/badges-lanyards.jpg
+        caption: "Badges and branded lanyards, six categories"
+      - image: /assets/images/projects/voxxed/athens/2019/programme.jpg
+        caption: "Printed programme, cover and schedule spreads"
+      - image: /assets/images/projects/voxxed/athens/2019/web-banner.jpg
+        caption: "Square web banner"
+      - image: /assets/images/projects/voxxed/athens/2019/animated-banner.gif
+        caption: "Animated web banner, 16:9"
+      - image: /assets/images/projects/voxxed/athens/2019/podium.jpg
+        caption: "Speaker podium sticker, 70 x 20 cm"
+      - image: /assets/images/projects/voxxed/athens/2019/social-card-horizontal.jpg
+        caption: "Speaker social card, horizontal PowerPoint template"
+      - image: /assets/images/projects/voxxed/athens/2019/social-card-vertical.jpg
+        caption: "Speaker social card, vertical PowerPoint template"
+      - image: /assets/images/projects/voxxed/athens/2019/hero-video.jpg
+        caption: "Video hero frame"
+  - city: Athens
     year: 2018
     thumb: /assets/images/projects/voxxed/athens/2018/thumb.jpg
     gallery:
@@ -84,8 +104,8 @@ editions:
         caption: "Printed programme, cover and schedule spreads"
       - image: /assets/images/projects/voxxed/athens/2018/web-banners.jpg
         caption: "Animated web banners and registration ads"
-      - image: /assets/images/projects/voxxed/athens/2018/wide-banners.jpg
-        caption: "Wide event banners"
+      - image: /assets/images/projects/voxxed/athens/2018/podium.jpg
+        caption: "Speaker podium stickers, 70 x 20 cm, two versions"
       - image: /assets/images/projects/voxxed/athens/2018/social-card.jpg
         caption: "Speaker social card, editable PowerPoint template"
       - image: /assets/images/projects/voxxed/athens/2018/hero-video.jpg
