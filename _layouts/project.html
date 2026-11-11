@@ -34,11 +34,12 @@ layout: default
 
 {% comment %}
   EDITIONS (optional). Add an `editions:` list to the project's front matter
-  (see _projects/voxxed-devoxx.md). Each edition has a city, a year, a thumb
+  (see _projects/voxxed-days.md). Each edition has a city, a year, a thumb
   and its own gallery. Projects without `editions:` keep the plain gallery below.
 {% endcomment %}
 {% if page.editions %}
-  {% assign cities = page.editions | map: "city" | uniq %}
+  {% assign eds = page.editions | sort: "year" | reverse %}
+  {% assign cities = eds | map: "city" | uniq %}
   {% if page.facts %}
   <section class="facts">
     {% for f in page.facts %}<div><b>{{ f.value }}</b><span>{{ f.label }}</span></div>{% endfor %}
@@ -54,7 +55,7 @@ layout: default
       {% for c in cities %}<button type="button" data-city="{{ c }}">{{ c }}</button>{% endfor %}
     </div>
     <div class="eds">
-      {% for e in page.editions %}
+      {% for e in eds %}
       <button type="button" class="ed{% if forloop.first %} is-selected{% endif %}" data-city="{{ e.city }}" data-target="ed-{{ forloop.index }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">
         <div class="im">{% if e.thumb %}<img src="{{ e.thumb | relative_url }}" alt="" loading="lazy">{% endif %}</div>
         <div class="tx"><b>{{ e.city }}</b><span class="mono">{{ e.year }}</span></div>
@@ -62,7 +63,7 @@ layout: default
       {% endfor %}
     </div>
     <div class="ed-details">
-      {% for e in page.editions %}
+      {% for e in eds %}
       <div class="ed-panel" id="ed-{{ forloop.index }}"{% unless forloop.first %} hidden{% endunless %}>
         <h3>Voxxed Days {{ e.city }} {{ e.year }}</h3>
         <p class="mono">Selected materials</p>
