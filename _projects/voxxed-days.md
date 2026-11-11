@@ -112,6 +112,24 @@ editions:
         caption: "2025 triangular desk calendar, 3 sides per print, shown with its flat layout"
       - image: /assets/images/projects/voxxed/2024/hero-video.jpg
         caption: "Video hero frame"
+  - city: Thessaloniki
+    year: 2025
+    thumb: /assets/images/projects/voxxed/2025/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/voxxed/2025/badges-lanyards.jpg
+        caption: "Badges and lanyards, three categories"
+      - image: /assets/images/projects/voxxed/2025/backlit.jpg
+        caption: "Backlit sticker"
+      - image: /assets/images/projects/voxxed/2025/reception-screen-boards.jpg
+        caption: "Reception board and screen board"
+      - image: /assets/images/projects/voxxed/2025/banner-square-ad.jpg
+        caption: "Event banner and square web ad"
+      - image: /assets/images/projects/voxxed/2025/charging-community.jpg
+        caption: "Charging station and Community Corner signs"
+      - image: /assets/images/projects/voxxed/2025/gift-bag.jpg
+        caption: "Gift bag with the 16x16 cm sticker"
+      - image: /assets/images/projects/voxxed/2025/hero-video.jpg
+        caption: "Video hero frame"
 ---
 
 ## Brief
