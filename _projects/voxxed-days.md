@@ -122,6 +122,16 @@ editions:
         caption: "Video hero frame"
       - image: /assets/images/projects/voxxed/thessaloniki/2018/web-banners.jpg
         caption: "Web banners"
+  - city: Athens
+    year: 2022
+    thumb: /assets/images/projects/voxxed/athens/2022/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/voxxed/athens/2022/badges-lanyards.jpg
+        caption: "Badges and branded lanyards, five categories"
+      - image: /assets/images/projects/voxxed/athens/2022/spider-banner.jpg
+        caption: "Spider banner, 200 x 200 cm"
+      - image: /assets/images/projects/voxxed/athens/2022/hero-video.jpg
+        caption: "Video hero frame"
   - city: Thessaloniki
     year: 2022
     thumb: /assets/images/projects/voxxed/thessaloniki/2022/thumb.jpg
@@ -226,6 +236,8 @@ A brand that has to travel. Every year, the same identity needs to work across a
 ## Approach
 
 A kit, not a one-off. Instead of redesigning from scratch each year, I built a flexible system: a fixed type and colour scale, a badge template that adapts to any lanyard printer, and banner templates sized for whatever the venue actually has.
+
+Every edition also has info desks. They carry only the sponsor's branding, so they follow the sponsor's artwork and are not shown in the edition galleries.
 
 <!--
   Removed until confirmed: the "Result" section ("Ten editions, zero missed deadlines") said ten
