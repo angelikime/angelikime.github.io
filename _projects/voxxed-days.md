@@ -132,6 +132,18 @@ editions:
         caption: "Spider banner, 200 x 200 cm"
       - image: /assets/images/projects/voxxed/athens/2022/hero-video.jpg
         caption: "Video hero frame"
+  - city: Crete
+    year: 2025
+    thumb: /assets/images/projects/voxxed/crete/2025/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/voxxed/crete/2025/badges-lanyards.jpg
+        caption: "Badges and black branded lanyards, three categories, with the back of the badge"
+      - image: /assets/images/projects/voxxed/crete/2025/roll-ups.jpg
+        caption: "Wayfinding roll-up banners, 80 x 200 cm, seven versions"
+      - image: /assets/images/projects/voxxed/crete/2025/hero-video.jpg
+        caption: "Video hero frame with the map of Crete"
+      - image: /assets/images/projects/voxxed/crete/2025/logo.jpg
+        caption: "Logo, colour and white versions"
   - city: Thessaloniki
     year: 2022
     thumb: /assets/images/projects/voxxed/thessaloniki/2022/thumb.jpg
