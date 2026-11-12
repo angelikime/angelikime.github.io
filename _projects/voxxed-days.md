@@ -132,6 +132,16 @@ editions:
         caption: "Spider banner, 200 x 200 cm"
       - image: /assets/images/projects/voxxed/athens/2022/hero-video.jpg
         caption: "Video hero frame"
+  - city: Ioannina
+    year: 2024
+    thumb: /assets/images/projects/voxxed/ioannina/2024/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/voxxed/ioannina/2024/badges-lanyards.jpg
+        caption: "Badges and branded lanyards, three categories"
+      - image: /assets/images/projects/voxxed/ioannina/2024/hero-video.jpg
+        caption: "Video hero frame"
+      - image: /assets/images/projects/voxxed/ioannina/2024/logo.jpg
+        caption: "Logo, colour and white versions"
   - city: Crete
     year: 2025
     thumb: /assets/images/projects/voxxed/crete/2025/thumb.jpg
