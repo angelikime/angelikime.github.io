@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<a href="{{ '/projects/' | relative_url }}" class="back mono">&larr; Back to projects</a>
+<a href="{{ '/projects/' | relative_url }}" class="back mono">&larr; Back to work</a>
 
 <section class="p-head">
   <div>
@@ -50,10 +50,12 @@ layout: default
       <h2>Every edition</h2>
       <p>Pick an edition to see its materials.</p>
     </div>
+    {% if cities.size > 1 %}
     <div class="filters ed-filters" role="group" aria-label="Filter by city">
       <button type="button" data-city="all" class="active">All</button>
       {% for c in cities %}<button type="button" data-city="{{ c }}">{{ c }}</button>{% endfor %}
     </div>
+    {% endif %}
     <div class="eds">
       {% for e in eds %}
       <button type="button" class="ed{% if forloop.first %} is-selected{% endif %}" data-city="{{ e.city }}" data-target="ed-{{ forloop.index }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">
@@ -65,7 +67,7 @@ layout: default
     <div class="ed-details">
       {% for e in eds %}
       <div class="ed-panel" id="ed-{{ forloop.index }}"{% unless forloop.first %} hidden{% endunless %}>
-        <h3>Voxxed Days {{ e.city }} {{ e.year }}</h3>
+        <h3>{{ page.edition_prefix | default: "Voxxed Days" }} {{ e.city }} {{ e.year }}</h3>
         <p class="mono">Selected materials</p>
         <div class="project-gallery">
           {% for item in e.gallery %}

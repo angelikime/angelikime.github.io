@@ -10,14 +10,48 @@ deliverables: "Logo, social profile images"
 card_glyph: "°"
 card_color: "#1B1B1F"
 
-image: /assets/images/projects/devoxx/logo.jpg
+image: /assets/images/projects/devoxx/athens/2025/badges-lanyards.jpg
 card_image: /assets/images/projects/devoxx/card.jpg
 
-gallery:
-  - image: /assets/images/projects/devoxx/logo.jpg
-    caption: "Devoxx Greece logo: colour, white and with the Devoxx mascot"
-  - image: /assets/images/projects/devoxx/social-profiles.jpg
-    caption: "Social media profile images, light and dark, with and without the wordmark"
+edition_prefix: "Devoxx Greece"
+
+editions:
+  - city: Athens
+    year: 2025
+    thumb: /assets/images/projects/devoxx/athens/2025/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/devoxx/athens/2025/badges-lanyards.jpg
+        caption: "Badges and branded lanyards, three categories"
+      - image: /assets/images/projects/devoxx/athens/2025/hero-video.jpg
+        caption: "Video hero frame"
+  - city: Athens
+    year: 2024
+    thumb: /assets/images/projects/devoxx/athens/2024/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/devoxx/athens/2024/badges-lanyards.jpg
+        caption: "Badges and branded lanyards, three categories"
+      - image: /assets/images/projects/devoxx/athens/2024/lunch-bag.jpg
+        caption: "Lunch bag sticker"
+      - image: /assets/images/projects/devoxx/athens/2024/hero-video.jpg
+        caption: "Video hero frame"
+  - city: Athens
+    year: 2023
+    thumb: /assets/images/projects/devoxx/athens/2023/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/devoxx/athens/2023/badges-lanyards.jpg
+        caption: "Badges and branded lanyards, three categories"
+      - image: /assets/images/projects/devoxx/athens/2023/lunch-bag.jpg
+        caption: "Lunch bag sticker"
+      - image: /assets/images/projects/devoxx/athens/2023/hero-video.jpg
+        caption: "Video hero frame"
+  - city: Athens
+    year: 2022
+    thumb: /assets/images/projects/devoxx/athens/2022/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/devoxx/athens/2022/logo.jpg
+        caption: "Devoxx Greece logo: colour, white and with the Devoxx mascot"
+      - image: /assets/images/projects/devoxx/athens/2022/social-profiles.jpg
+        caption: "Social media profile images, light and dark, with and without the wordmark"
 ---
 
 ## Brief
