@@ -60,14 +60,14 @@ layout: default
       {% for e in eds %}
       <button type="button" class="ed{% if forloop.first %} is-selected{% endif %}" data-city="{{ e.city }}" data-target="ed-{{ forloop.index }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">
         <div class="im">{% if e.thumb %}<img src="{{ e.thumb | relative_url }}" alt="" loading="lazy">{% endif %}</div>
-        <div class="tx"><b>{{ e.city }}</b><span class="mono">{{ e.year }}</span></div>
+        <div class="tx">{% if e.city %}<b>{{ e.city }}</b><span class="mono">{{ e.year }}</span>{% else %}<b>{{ e.year }}</b>{% endif %}</div>
       </button>
       {% endfor %}
     </div>
     <div class="ed-details">
       {% for e in eds %}
       <div class="ed-panel" id="ed-{{ forloop.index }}"{% unless forloop.first %} hidden{% endunless %}>
-        <h3>{{ page.edition_prefix | default: "Voxxed Days" }} {{ e.city }} {{ e.year }}</h3>
+        <h3>{{ page.edition_prefix | default: "Voxxed Days" }}{% if e.city %} {{ e.city }}{% endif %} {{ e.year }}</h3>
         <p class="mono">Selected materials</p>
         <div class="project-gallery">
           {% for item in e.gallery %}

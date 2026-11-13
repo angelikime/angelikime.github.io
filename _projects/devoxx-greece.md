@@ -16,16 +16,35 @@ card_image: /assets/images/projects/devoxx/card.jpg
 edition_prefix: "Devoxx Greece"
 
 editions:
-  - city: Athens
-    year: 2025
+  - year: 2026
+    thumb: /assets/images/projects/devoxx/athens/2026/thumb.jpg
+    gallery:
+      - image: /assets/images/projects/devoxx/athens/2026/hero-video.jpg
+        caption: "Video hero frame"
+      - image: /assets/images/projects/devoxx/athens/2026/badges-lanyards.jpg
+        caption: "Badges and lanyards, three categories, with the back of the badge"
+      - image: /assets/images/projects/devoxx/athens/2026/media-corner.jpg
+        caption: "Media Corner, main panel and two side panels"
+      - image: /assets/images/projects/devoxx/athens/2026/reception-board.jpg
+        caption: "Reception board, main panel and two side panels"
+      - image: /assets/images/projects/devoxx/athens/2026/community-corner.jpg
+        caption: "Community Corner banner, 200 x 200 cm"
+      - image: /assets/images/projects/devoxx/athens/2026/roll-ups.jpg
+        caption: "Sponsor roll-up and badge scanning notice roll-up"
+      - image: /assets/images/projects/devoxx/athens/2026/podium.jpg
+        caption: "Podium sticker on the lectern"
+      - image: /assets/images/projects/devoxx/athens/2026/charging-stations.jpg
+        caption: "Charging station panels"
+      - image: /assets/images/projects/devoxx/athens/2026/lunch-bag.jpg
+        caption: "Lunch bag sticker"
+  - year: 2025
     thumb: /assets/images/projects/devoxx/athens/2025/thumb.jpg
     gallery:
       - image: /assets/images/projects/devoxx/athens/2025/badges-lanyards.jpg
         caption: "Badges and branded lanyards, three categories"
       - image: /assets/images/projects/devoxx/athens/2025/hero-video.jpg
         caption: "Video hero frame"
-  - city: Athens
-    year: 2024
+  - year: 2024
     thumb: /assets/images/projects/devoxx/athens/2024/thumb.jpg
     gallery:
       - image: /assets/images/projects/devoxx/athens/2024/badges-lanyards.jpg
@@ -34,8 +53,7 @@ editions:
         caption: "Lunch bag sticker"
       - image: /assets/images/projects/devoxx/athens/2024/hero-video.jpg
         caption: "Video hero frame"
-  - city: Athens
-    year: 2023
+  - year: 2023
     thumb: /assets/images/projects/devoxx/athens/2023/thumb.jpg
     gallery:
       - image: /assets/images/projects/devoxx/athens/2023/badges-lanyards.jpg
@@ -44,8 +62,7 @@ editions:
         caption: "Lunch bag sticker"
       - image: /assets/images/projects/devoxx/athens/2023/hero-video.jpg
         caption: "Video hero frame"
-  - city: Athens
-    year: 2022
+  - year: 2022
     thumb: /assets/images/projects/devoxx/athens/2022/thumb.jpg
     gallery:
       - image: /assets/images/projects/devoxx/athens/2022/logo.jpg

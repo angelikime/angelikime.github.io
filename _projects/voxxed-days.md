@@ -87,7 +87,7 @@ editions:
       - image: /assets/images/projects/voxxed/athens/2019/animated-banner.gif
         caption: "Animated web banner, 16:9"
       - image: /assets/images/projects/voxxed/athens/2019/podium.jpg
-        caption: "Speaker podium sticker, 70 x 20 cm"
+        caption: "Speaker podium sticker on the lectern, 70 x 20 cm"
       - image: /assets/images/projects/voxxed/athens/2019/social-card-horizontal.jpg
         caption: "Speaker social card, horizontal PowerPoint template"
       - image: /assets/images/projects/voxxed/athens/2019/social-card-vertical.jpg
@@ -105,7 +105,7 @@ editions:
       - image: /assets/images/projects/voxxed/athens/2018/web-banners.jpg
         caption: "Animated web banners and registration ads"
       - image: /assets/images/projects/voxxed/athens/2018/podium.jpg
-        caption: "Speaker podium stickers, 70 x 20 cm, two versions"
+        caption: "Speaker podium stickers on the lectern, 70 x 20 cm, two versions"
       - image: /assets/images/projects/voxxed/athens/2018/social-card.jpg
         caption: "Speaker social card, editable PowerPoint template"
       - image: /assets/images/projects/voxxed/athens/2018/hero-video.jpg
